@@ -1,0 +1,42 @@
+.delete-btn {
+  padding: 8px 17px;
+  border: 1px solid #AA2A0F;
+  color: #AA2A0F;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.delete-btn svg {
+  fill: #AA2A0F;
+}
+
+.delete-btn:hover {
+  background-color: #AA2A0F;
+  color: #fff;
+}
+
+.delete-btn:hover svg {
+  fill: #fff;
+}
+
+.btn-minus,
+.btn-plus {
+  width: 42px;
+  height: 42px;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-minus {
+  background-color: #AA2A0F;
+}
+
+.btn-minus:hover {
+  background-color: #BE2E11;
+}
+
+.btn-plus {
+  background-color: #F1AF3E;
+}
+
+.btn-plus:hover {
+  background-color: #EFA629;
+}

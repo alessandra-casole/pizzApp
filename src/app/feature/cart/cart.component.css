@@ -1,0 +1,30 @@
+svg {
+  fill: #000;
+}
+
+button {
+  padding: 8px 17px;
+}
+
+.cart-btn {
+  background-color: #F1AF3E;
+  border: 1px solid #EFA629;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.cart-btn:hover {
+  background-color: #EFA629;
+}
+
+.modal-dialog svg {
+  fill: #000;
+}
+
+.modal .reset-btn {
+  background: #BD641E;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.modal .reset-btn:hover {
+  background: #B05C1B;
+}

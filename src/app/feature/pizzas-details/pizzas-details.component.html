@@ -1,0 +1,22 @@
+<div *ngIf="pizza" class="container px-0 mt-5 gap-2">
+  <div class="row text-center">
+    <div class="col">
+      <h1> {{ pizza.name }} </h1>
+    </div>
+  </div>
+  <div class="row gy-3">
+    <div class="col">
+      <div class="card shadow-sm mt-5 h-100 text-center m-auto">
+        <img src="{{ pizza.image }}" class="card-img-top" [alt]="pizza.name" />
+        <div class="card-body pb-0">
+            <p class="card-text mt-3">
+              {{ pizza.description }}
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
