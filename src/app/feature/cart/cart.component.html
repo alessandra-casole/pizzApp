@@ -45,10 +45,10 @@
             <span>
               <img src="{{ item.image }}" alt="{{ item.name }}" width="18" class="d-inline-block rounded-circle">
 
-              {{ item.name }} qt: {{ item.quantity }} * {{ item.price }} = {{ item.quantity * item.price | currency: 'EUR': true }} </span>
+              {{ item.name }} qt: {{ item.quantity }} * {{ item.price }} = {{ item.quantity * item.price | currency: 'EUR' }} </span>
           </div>
         </div>
-        <div class="tot text-end fw-bold">Tot: {{ pizzasService.total | currency: 'EUR': true }}  </div>
+        <div class="tot text-end fw-bold">Tot: {{ pizzasService.total | currency: 'EUR' }}  </div>
       </div>
 
       <div class="modal-footer">

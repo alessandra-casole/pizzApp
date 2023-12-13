@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { Pizzas } from 'src/app/models/pizzas';
 import { PizzasService } from 'src/app/services/pizzas.service';
 import { PizzasState } from 'src/app/state/pizzas-state';
