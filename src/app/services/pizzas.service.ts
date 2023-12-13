@@ -29,10 +29,6 @@ export class PizzasService {
       });
   }
 
-  getPizza(index: number) {
-    return this.pizzasState.pizzas[index];
-  }
-
   deletePizzas(id: number) {
     return this.http
       .delete(
