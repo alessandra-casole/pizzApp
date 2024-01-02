@@ -21,13 +21,13 @@ import { PizzasState } from 'src/app/state/pizzas-state';
             <a
               class="btn"
               [routerLink]="['/pizza', pizza.id]"
-              title="Vedi dettagli"
+              [title]="pizza.name"
             >
               <div class="card shadow-sm mt-3 h-100">
                 <img
                   src="{{ pizza.image }}"
                   class="card-img"
-                  [alt]="pizza.name"
+                  [alt]="pizza.name + 'immagine'"
                 />
               </div>
             </a>
