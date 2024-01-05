@@ -21,6 +21,7 @@ export class PizzasDetailsComponent implements OnInit {
     public http: HttpClient
   ) {
     const id = +route.snapshot.params['id'];
+    console.log(id);
     this.http
       .get<Pizzas>(
         `https://my-json-server.typicode.com/zoelounge/menupizza/cards/${id}`

@@ -16,7 +16,7 @@ import { PizzasState } from 'src/app/state/pizzas-state';
     </h1>
     <div class="container">
       <div class="container px-0 d-flex mt-5 mb-5">
-        <div class="row row-cols-2 row-cols-lg-3 g-2 mt-3">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 mt-3">
           <div class="col" *ngFor="let pizza of pizzasState.pizzas">
             <a
               class="btn"
@@ -27,7 +27,7 @@ import { PizzasState } from 'src/app/state/pizzas-state';
                 <img
                   src="{{ pizza.image }}"
                   class="card-img"
-                  [alt]="pizza.name + 'immagine'"
+                  [alt]="pizza.name + ' immagine'"
                 />
               </div>
             </a>

@@ -34,12 +34,18 @@ import { PizzasService } from 'src/app/services/pizzas.service';
           <ul class="navbar-nav ms-2 me-auto mb-2 mb-lg-0">
             <li
               class="nav-item"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
             >
               <a class="nav-link" routerLink="/home" routerLinkActive="active"
                 >Home</a
               >
             </li>
-            <li class="nav-item">
+            <li
+              class="nav-item"
+              data-bs-toggle="collapse"
+              data-bs-target=".navbar-collapse.show"
+            >
               <a class="nav-link" routerLink="/menu" routerLinkActive="active"
                 >Menu</a
               >
